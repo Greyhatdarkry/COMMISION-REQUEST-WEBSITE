@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // If you choose a different repository name, change the base below to "/YOUR-REPO-NAME/".
 export default defineConfig({
   plugins: [react()],
-  base: '/circuitworks/',
+  base: '/COMMISION-REQUEST-WEBSITE/',
 })
