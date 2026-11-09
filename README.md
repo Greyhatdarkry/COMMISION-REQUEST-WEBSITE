@@ -1,12 +1,21 @@
 # CircuitWorks
 
-A React + Three.js landing page for IoT, embedded systems, electronics and prototype engineering inquiries.
+CircuitWorks is a modern, interactive landing page for IoT, embedded systems, electronics, and prototype engineering services. Built with React and Three.js, it gives prospective clients a clear way to explore the offering and make project inquiries.
 
-## Live deployment
+## Live project
 
-This project is now live and deployed as `@Greyhatdarkry/COMMISION-REQUEST-WEBSITE`:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20site-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white)](https://greyhatdarkry.github.io/COMMISION-REQUEST-WEBSITE/)
+[![Deploy to GitHub Pages](https://github.com/Greyhatdarkry/COMMISION-REQUEST-WEBSITE/actions/workflows/deploy.yml/badge.svg)](https://github.com/Greyhatdarkry/COMMISION-REQUEST-WEBSITE/actions/workflows/deploy.yml)
 
-- GitHub Pages: https://greyhatdarkry.github.io/COMMISION-REQUEST-WEBSITE/
+**Website:** [greyhatdarkry.github.io/COMMISION-REQUEST-WEBSITE](https://greyhatdarkry.github.io/COMMISION-REQUEST-WEBSITE/)
+
+## Screenshot
+
+A screenshot of the live site will be added here. To display one, save an image as `docs/screenshot.png` and replace this note with:
+
+```markdown
+![CircuitWorks website screenshot](docs/screenshot.png)
+```
 
 ## Run locally
 
@@ -17,14 +26,14 @@ npm run dev
 
 ## Deploy to GitHub Pages
 
-1. Create a public GitHub repository named `circuitworks`.
-2. Upload all files in this folder to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **GitHub Actions** as the source.
-5. Push to the `main` branch. The workflow in `.github/workflows/deploy.yml` builds and deploys the site.
-6. Your site will be available at `https://YOUR-GITHUB-USERNAME.github.io/circuitworks/`.
+This repository is configured to deploy through the GitHub Actions workflow at `.github/workflows/deploy.yml`.
 
-If you use a different repository name, update `base` in `vite.config.js` to `/<repository-name>/` before deploying.
+1. In the repository, open **Settings → Pages**.
+2. Under **Build and deployment**, select **GitHub Actions** as the source.
+3. Push to the `main` branch to trigger the workflow.
+4. After deployment completes, visit [the live site](https://greyhatdarkry.github.io/COMMISION-REQUEST-WEBSITE/).
+
+If you change the repository name, update `base` in `vite.config.js` to match the new GitHub Pages path.
 
 ## Project inquiry form
 
@@ -32,4 +41,4 @@ The form is currently in preview mode and does not send or store submissions. Co
 
 ## Academic integrity
 
-For academic projects, provide transparent prototype, tutoring, debugging and technical-development services. Clients should understand the work, participate appropriately, and follow their institution's policies and ethical expectations.
+For academic projects, provide transparent prototype, tutoring, debugging, and technical-development services. Clients should understand the work, participate appropriately, and follow their institution's policies and ethical expectations.
