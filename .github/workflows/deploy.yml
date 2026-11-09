@@ -34,8 +34,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build website
+      - name: Build
         run: npm run build
+        env:
+          VITE_FORM_ENDPOINT: ${{ vars.VITE_FORM_ENDPOINT }}
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
